@@ -62,7 +62,6 @@ public class PlayerBehaviour : MonoBehaviour
         if (shoot)
         {
             GameObject newBullet = Instantiate(bullet, this.transform.position + this.transform.right, this.transform.rotation) as GameObject;
-            bullet.transform.rotation = Quaternion.Euler(90, 0, 0);
             Rigidbody bulletRB = newBullet.GetComponent<Rigidbody>();
             bulletRB.velocity = this.transform.forward * bulletSpeed;
             shoot = false;

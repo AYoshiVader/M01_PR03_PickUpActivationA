@@ -151,6 +151,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rotateSpeed: 75
+  jumpVelocity: 5
+  distanceToGround: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  bullet: {fileID: 6427004155003683843, guid: 7b298813b44030f48ac909c1e40929bb, type: 3}
+  bulletSpeed: 100
+  doJump: 0
+  shoot: 0
 --- !u!1 &7018534838374104304
 GameObject:
   m_ObjectHideFlags: 0
